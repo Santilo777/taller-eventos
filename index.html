@@ -13,6 +13,7 @@
     <script>
       document.getElementById('saludarBtn').addEventListener('click', function() {
         alert('Hola!');
+        event.stopPropagation(); //se detiene la propagación del evento 
       });
     </script>
     
