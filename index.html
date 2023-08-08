@@ -5,7 +5,13 @@
     <title>Taller 7.1.1</title>
 </head>
 <body>
-    <button>Saludar</button>
+    <button id="saludarBtn">Saludar</button>
+
+    <script>
+      document.getElementById('saludarBtn').addEventListener('click', function() {
+        alert('Hola!');
+      });
+    </script>
     
 </body>
 </html>
